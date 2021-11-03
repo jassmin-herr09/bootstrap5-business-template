@@ -1,6 +1,6 @@
 $body-bg: rgb(27,27,27);
 $body-color: white;
-$primary: green;
+$primary: #FCFCFC;
 
 $font-family-sans-serif: 'Poppins', serif;
 
@@ -23,4 +23,16 @@ $font-family-sans-serif: 'Poppins', serif;
     background: black url('../assets/banner.png');
     background-size: cover;
 
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background: #2e2e2e;
+}
+
+.card-body p {
+    color: #c2c2c2;
 }
